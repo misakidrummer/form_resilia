@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Resilia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+</head>
+<style>
+
+body {
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );
+    
+     }
+h1 {
+      display: flex;
+      justify-content: center;
+      font-family: 'Lato', sans-serif;
+      color: #071019;
+
+}
+
+.form-center {
+    
+    border-radius: 25px;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    padding: 20px; 
+    width: 200px;
+    text-align:center;
+    display: flex
+    display: table-cell;
+    margin: auto
+}
+
+.resilia {
+    padding-inline: 4em;
+    width: 40vw;
+    display: flex;
+    margin: auto;
+}
+
+</style>
+
+
+
+<body>
+<header class="header">   
+     <img src="logo.png" alt="resilia" class="resilia"/>
+    <h1>Preencha seus dados e boa sorte! Vejo você do outro lado!</h1>
+
+
+<div class="form-center">
+<form>
+  <label for="fname">Nome Completo:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="AN">Ano de Nascimento:</label>
+  <input type="date" id="AN" name="AN"><br><br>
+  <label for="emal">E-mail:</label>
+  <input type="email" id="emal" name="emal"><br><br>
+  <label for="cpf">CPF:</label>
+  <input type="text" name="cpf" \
+			pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" \
+			title="Digite um CPF no formato: xxx.xxx.xxx-xx"><br><br>
+  <input type="submit" value="Submit">
+</form>
+</div>
+
+    
+</body>
+</html>
